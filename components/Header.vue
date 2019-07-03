@@ -1,5 +1,5 @@
 <template>
-  <div class="px-24 shadow-lg">
+  <div class="px-24 bg-green-400 shadow text-white">
     <div class="flex items-center py-5 justify-between">
       <div>
         <img src="~/assets/images/dologo.png" class="h-10 w-40 cursor-pointer" />
