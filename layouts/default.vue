@@ -2,15 +2,17 @@
   <div class="font-sans text-gray-800">
     <header-vue />
     <nuxt />
+    <footer-vue />
   </div>
 </template>
 
 <script>
 import HeaderVue from '../components/Header.vue';
-
+import footerVue from '../components/footer.vue';
 export default {
   components: {
-    HeaderVue
+    HeaderVue,
+    footerVue
   }
 }
 </script>

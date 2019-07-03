@@ -1,5 +1,5 @@
 <template>
-  <div class="my-16">
+  <div class="pt-16 bg-gray-100">
     <div class="mx-24">
         <p class="text-2xl uppercase font-semibold">Contact us</p>
         <div class="flex mt-10">
@@ -26,26 +26,28 @@
         </div>
     
     </div>
-    <div class="bg-gray-200 p-24 text-sm mt-20">
-        <p class="text-2xl uppercase font-semibold">contact form</p>
-        <div class="flex mt-10 text-sm">
-            <P class="w-32 text-right pr-3">Your Name *</p>
-            <input type="text" placeholder="Your Name" class="w-full py-1 px-2 ml-5 rounded border text-sm"/>
-        </div>
-        <div class="flex mt-5 text-sm">
-            <p class="w-32 text-right pr-3">Your Email *</p>
-            <input type="text" placeholder="Your Email" class="w-full py-1 px-2 ml-5 rounded border text-sm"/>
-        </div>
-        <div class="flex mt-5 text-sm">
-            <p class="w-32 text-right pr-3">Your Subject *</p>
-            <input type="text" placeholder="Email Subject" class="w-full py-1 px-2 ml-5 rounded border text-sm"/>
-        </div>
-        <div class="flex mt-5">
-            <p class="w-32 text-right pr-3 ">Your Message *</p>
-            <textarea placeholder="Write Your Message" row="10" class="w-full py-1 px-2 ml-5 rounded border text-sm"></textarea>
-        </div>
-        <div class="mt-5 flex justify-end">
-            <button class="w-32 p-2 rounded ml-20 bg-green-600 border">send</button>
+    <div class="bg-gray-300 px-24 py-16 text-sm mt-20">
+        <div class="w-2/3">
+            <p class="text-2xl uppercase font-semibold">contact form</p>
+            <div class="flex mt-10 text-sm">
+                <P class="w-32 text-right pr-3">Your Name *</p>
+                <input type="text" placeholder="Your Name" class="w-full p-2 border-gray-500 ml-5 rounded border text-sm"/>
+            </div>
+            <div class="flex mt-5 text-sm">
+                <p class="w-32 text-right pr-3">Your Email *</p>
+                <input type="text" placeholder="Your Email" class="w-full border-gray-500 p-2 ml-5 rounded border text-sm"/>
+            </div>
+            <div class="flex mt-5 text-sm">
+                <p class="w-32 text-right pr-3">Your Subject *</p>
+                <input type="text" placeholder="Email Subject" class="w-full border-gray-500 p-2 ml-5 rounded border text-sm"/>
+            </div>
+            <div class="flex mt-5">
+                <p class="w-32 text-right pr-3 ">Your Message *</p>
+                <textarea placeholder="Write Your Message" class="w-full border-gray-500 p-2 ml-5 rounded border text-sm"></textarea>
+            </div>
+            <div class="mt-5 flex justify-end">
+                <button class="w-32 p-2 rounded ml-20 bg-green-500 border border-gray-500 text-white uppercase font-semibold">send</button>
+            </div>
         </div>
     </div>
   </div>
