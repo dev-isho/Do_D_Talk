@@ -1,8 +1,8 @@
 <template>
-  <div class="px-24 shadow-lg">
+  <div class="px-24 shadow">
     <div class="flex items-center py-5 justify-between">
       <div>
-        <img src="~/assets/images/dologo.png" class="h-10 w-40 cursor-pointer" />
+        <img src="~/assets/images/dologo.png" class="h-16 w-48 cursor-pointer" />
       </div>
       <div class="flex text-sm">
         <div class="mx-2">
