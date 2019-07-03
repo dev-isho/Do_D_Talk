@@ -18,7 +18,7 @@
           <nuxt-link to>Portfolio</nuxt-link>
         </div>
         <div class="mx-2">
-          <nuxt-link to>Contact Us</nuxt-link>
+          <nuxt-link to="/Contact">Contact Us</nuxt-link>
         </div>
       </div>
     </div>
