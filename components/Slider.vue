@@ -1,8 +1,8 @@
 <template>
-  <div class="pt-32">
+  <div class="pt-40 pb-10">
     <el-carousel :interval="4000" type="card" height="450px">
       <el-carousel-item v-for="(image, index) in images" :key="index">
-        <div v-bind:style="{ backgroundImage: `url('${image}`}" class="img-slider"></div>
+        <div v-bind:style="{ backgroundImage: `url('${image}`}" class="img-slider border-2 border-green-200 m-0"></div>
       </el-carousel-item>
     </el-carousel>
   </div>
@@ -14,10 +14,10 @@ export default {
   data() {
     return {
       images: [
-        require("~/assets/images/IMG-20190622-WA0025.jpg"),
+        require("~/assets/images/IMG-20190622-WA0062.jpg"),
         require("~/assets/images/IMG-20190622-WA0028.jpg"),
+        require("~/assets/images/IMG-20190622-WA0064.jpg"),
         require("~/assets/images/IMG-20190622-WA0029.jpg"),
-        require("~/assets/images/IMG-20190622-WA0047.jpg"),
         require("~/assets/images/IMG-20190622-WA0046.jpg")
       ]
     };
