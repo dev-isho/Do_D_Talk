@@ -22,7 +22,24 @@ export default {
     goBack(){
       this.$router.push('/portfolio')
     }
-  }
+  },
+  data() {
+    return {
+      title: "Do D Talk | View Portfolio"
+    };
+  },
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: "My custom description"
+        }
+      ]
+    };
+  }'
 };
 </script>
 

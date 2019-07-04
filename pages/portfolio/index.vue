@@ -59,6 +59,23 @@ export default {
     viewPortfolio(index) {
       this.$router.push("/portfolio/view_portfolio");
     }
+  },
+  data() {
+    return {
+      title: "Do D Talk | Portfolio"
+    };
+  },
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: "My custom description"
+        }
+      ]
+    };
   }
 };
 </script>

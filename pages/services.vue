@@ -100,6 +100,23 @@
 import OurServicesVue from "../components/OurServices.vue";
 
 export default {
+  data() {
+    return {
+      title: "Do D Talk | Services"
+    };
+  },
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: "My custom description"
+        }
+      ]
+    };
+  },
   components: {
     OurServicesVue
   }
