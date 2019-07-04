@@ -8,7 +8,7 @@
           <div class="pup-over h-full mx-2 hidden">
             <div class="flex h-full text-white items-center justify-center">
               <div class="font-semibold">
-                <p>+</p>
+                <p><i class="el-icon-edit"></i></p>
                 <p class="text-base">Name</p>
                 <p class="text-gray-800 uppercase text-sm">type</p>
               </div>
