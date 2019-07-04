@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-16 bg-gray-100">
+  <div class="pt-48 bg-gray-100">
     <div class="mx-24">
         <p class="text-2xl uppercase font-semibold">Contact us</p>
         <div class="flex mt-10">

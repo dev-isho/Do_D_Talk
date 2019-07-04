@@ -20,3 +20,15 @@ figure img {
   height: 100%;
   background-size: contain;
 }
+
+.h-75{
+  height: 23rem;
+}
+
+.pup-over{
+  background: rgba(9, 170, 81, 0.459);
+}
+
+.img:hover .pup-over {
+  display: block;
+}
