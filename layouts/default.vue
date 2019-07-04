@@ -1,5 +1,5 @@
 <template>
-  <div class="font-sans text-gray-800">
+  <div class="font-sans text-gray-800 bg-gray-100">
     <header-vue />
     <nuxt />
     <footer-vue />
