@@ -36,10 +36,17 @@
       </div>
     </div>
     <button
+      @click="about"
       class="uppercase rounded-full mt-5 mx-3 border rounded font-semibold px-5 mt-10 py-3 bg-green-500"
     >Meet PROFESSIONAL PLUMBER</button>
   </div>
 </template>
 <script>
-export default {};
+export default {
+  methods: {
+    about() {
+      this.$router.push("/about");
+    }
+  }
+};
 </script>

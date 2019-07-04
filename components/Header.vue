@@ -9,10 +9,10 @@
           <nuxt-link to="/">Home</nuxt-link>
         </div>
         <div class="mx-2">
-          <nuxt-link to>About Us</nuxt-link>
+          <nuxt-link to="/about">About Us</nuxt-link>
         </div>
         <div class="mx-2">
-          <nuxt-link to>Services</nuxt-link>
+          <nuxt-link to="/services">Services</nuxt-link>
         </div>
         <div class="mx-2">
           <nuxt-link to="/portfolio">Portfolio</nuxt-link>
